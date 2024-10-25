@@ -4,4 +4,4 @@
 
 ・Ruby
 ・Ruby on Rails
-・OpenAi API
+・OpenAI API
