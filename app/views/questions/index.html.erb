@@ -1,0 +1,21 @@
+<h1>質問ページ <%= params[:page] || 1 %></h1>
+
+<%= form_with url: submit_questions_path, method: :post do %>
+  <ul>
+    <% @questions.each do |question| %>
+      <li>
+        <p><%= question.content %></p>
+        <%= radio_button_tag "answers[#{question.id}]", 1 %> 1
+        <%= radio_button_tag "answers[#{question.id}]", 2 %> 2
+        <%= radio_button_tag "answers[#{question.id}]", 3 %> 3
+        <%= radio_button_tag "answers[#{question.id}]", 4 %> 4
+        <%= radio_button_tag "answers[#{question.id}]", 5 %> 5
+      </li>
+    <% end %>
+  </ul>
+
+  <%= hidden_field_tag :page, params[:page] || 1 %>
+
+  <%= submit_tag "次へ" %>
+<% end %>
+
