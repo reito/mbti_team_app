@@ -4,6 +4,11 @@
 # belong in git's global ignore instead:
 # `$XDG_CONFIG_HOME/git/ignore` or `~/.config/git/ignore`
 
+
+# 環境変数ファイルを無視
+.env
+.env.local
+
 # Ignore bundler config.
 /.bundle
 
