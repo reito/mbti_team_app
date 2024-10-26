@@ -1,24 +1,7 @@
-# README
+このアプリはMBTIを診断することにより、最適なチーム編成及びチームにおけるベストポジションを提案するアプリです。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+〜技術スタック〜
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+・Ruby
+・Ruby on Rails
+・OpenAI API
